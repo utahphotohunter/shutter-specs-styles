@@ -1,0 +1,55 @@
+html,
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#header {
+  min-width: 200px;
+  margin-left: 20px;
+}
+
+header.centered-top-container.sticky.animating {
+  height: 100px;
+}
+
+div#header.container.section h1 {
+  text-align: center;
+}
+
+.centered-top-container .svg-icon-24,
+body.collapsed-header .centered-top-placeholder .svg-icon-24 {
+  fill: #ffffff;
+  width: 50px;
+  height: 50px;
+  background-color: #a9a9a990;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+div#FeaturedPost1.widget.FeaturedPost,
+div.blog-posts.hfeed.container article.post-outer-container {
+  border-radius: 20px;
+  /* background-color: white; */
+}
+
+div#FeaturedPost1.widget.FeaturedPost div.snippet-thumbnail img {
+  border-radius: 40px;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+/*
+div.blog-posts.hfeed.container article.post-outer-container {
+background-color: #ffffff90;
+}
+*/
+
+div.snippet-thumbnail img {
+  border-radius: 30px;
+}
+
+footer div.widget-content,
+h3.title {
+  color: #ffffff90;
+}
