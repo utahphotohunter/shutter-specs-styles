@@ -1,30 +1,16 @@
-html,
-body {
-  width: 100vw;
-  overflow-x: hidden;
-}
-
-#header {
-  min-width: 200px;
-  margin-left: 20px;
-}
-
-header.centered-top-container.sticky.animating {
-  height: 100px;
-}
-
-div#header.container.section h1 {
-  text-align: center;
-}
-
 .centered-top-container .svg-icon-24,
 body.collapsed-header .centered-top-placeholder .svg-icon-24 {
-  fill: #ffffff;
-  width: 50px;
-  height: 50px;
   background-color: #a9a9a990;
   padding: 5px;
   border-radius: 10px;
+}
+
+div.search {
+  width: fit-content;
+}
+
+div.flat-icon-button.ripple {
+  margin: 0 -12px;
 }
 
 div#FeaturedPost1.widget.FeaturedPost,
@@ -42,23 +28,23 @@ div.snippet-thumbnail img {
   border-radius: 30px;
 }
 
+footer {
+  padding: 20px;
+}
+
 footer div.widget-content,
 h3.title {
   color: #ffffff90;
 }
 
-.search {
-  overflow: visible;
-  display: flex;
-  line-height: 24px;
-  width: fit-content;
-  float: right;
-  position: relative;
+div.blogger {
+  margin-bottom: 60px;
 }
 
-button.svg-icon-24-button.hamburger-menu.flat-icon-button.ripple {
-  overflow: visible;
-  border-radius: 50%;
-  position: relative;
-  margin-top: -12px;
+footer h3.title {
+  font-size: larger;
+}
+
+footer div.widget-content {
+  font-size: smaller;
 }
