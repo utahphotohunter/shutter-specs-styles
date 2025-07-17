@@ -1,5 +1,6 @@
 .centered-top-container .svg-icon-24,
-body.collapsed-header .centered-top-placeholder .svg-icon-24 {
+body.collapsed-header .centered-top-placeholder .svg-icon-24,
+div.widget-content ul.tabs a {
   background-color: #a9a9a990;
   padding: 5px;
   border-radius: 10px;
@@ -11,6 +12,20 @@ div.search {
 
 div.flat-icon-button.ripple {
   margin: 0 -12px;
+}
+
+header h3.title {
+  font-weight: 100;
+  color: #ffffff90 !important;
+}
+
+div.widget-content ul.tabs a {
+  color: white;
+  padding: 10px;
+}
+
+div.widget-content ul.tabs a:hover {
+  text-decoration: underline;
 }
 
 div#FeaturedPost1.widget.FeaturedPost,
